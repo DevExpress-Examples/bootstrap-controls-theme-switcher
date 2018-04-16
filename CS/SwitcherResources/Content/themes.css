@@ -1,0 +1,1341 @@
+﻿#settingsbar #themesMenu li > a > .image.default {
+    background: #337ab7;
+}
+
+#settingsbar #themesMenu li > a > .image.cerulean {
+    background: #2fa4e7;
+}
+
+#settingsbar #themesMenu li > a > .image.cosmo {
+    background: #2780e3;
+}
+
+#settingsbar #themesMenu li > a > .image.cyborg {
+    background: #060606;
+}
+
+#settingsbar #themesMenu li > a > .image.darkly {
+    background: #00bc8c;
+}
+
+#settingsbar #themesMenu li > a > .image.flatly {
+    background: #dce4ec;
+}
+
+#settingsbar #themesMenu li > a > .image.journal {
+    background: #eb6864;
+}
+
+#settingsbar #themesMenu li > a > .image.lumen {
+    background: #158cba;
+}
+
+#settingsbar #themesMenu li > a > .image.paper {
+    background: #2196f3;
+}
+
+#settingsbar #themesMenu li > a > .image.readable {
+    background: #4582ec;
+}
+
+#settingsbar #themesMenu li > a > .image.sandstone {
+    background: #93c54b;
+}
+
+#settingsbar #themesMenu li > a > .image.simplex {
+    background: #d9230f;
+}
+
+#settingsbar #themesMenu li > a > .image.slate {
+    background: #484e55;
+}
+
+#settingsbar #themesMenu li > a > .image.spacelab {
+    background: #446e9b;
+}
+
+#settingsbar #themesMenu li > a > .image.superhero {
+    background: #df691a;
+}
+
+#settingsbar #themesMenu li > a > .image.united {
+    background: #e95420;
+}
+
+#settingsbar #themesMenu li > a > .image.yeti {
+    background: #008cba;
+}
+
+/* Default */
+.theme-default #sidebar #navTreeView li.active > a {
+    background: #337ab7;
+    color: #fff;
+}
+
+.theme-default #submenubar #subMenu li.active > a {
+    border-left-color: #337ab7;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-default:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-default:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #337ab7;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-default.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-default.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #337ab7;
+        background: transparent;
+    }
+}
+
+.theme-default #sidebar #navTreeView li > a,
+.theme-default #submenubar #subMenu li > a,
+.theme-default #sidebar #searchResults ul > li > a {
+    color: #333;
+}
+
+.theme-default #submenubar #subMenu li > a > span {
+    opacity: .6;
+}
+
+.theme-default #navbar .nav-button,
+.theme-default #navbar .nav-header > li + li > a,
+.theme-default #navbar .nav-header > li + li > a:hover,
+.theme-default #sidebar #bottomNav a,
+.theme-default #settingsbar #themesMenu li.active > a {
+    background: #337ab7;
+}
+
+.theme-default #navbar .nav-header > li + li + li > a,
+.theme-default #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-default #settingsbar #screenSizeCmb .dxbs-dropdown-area li:not(.active) > a:hover {
+    color: #333;
+}
+
+.theme-default .alink {
+    color: #333;
+}
+
+/* Cerulean */
+.theme-cerulean #sidebar #navTreeView li.active > a {
+    background: #2fa4e7;
+    color: #fff;
+}
+
+.theme-cerulean #submenubar #subMenu li.active > a {
+    border-left-color: #2fa4e7;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-cerulean:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-cerulean:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #2fa4e7;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-cerulean.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-cerulean.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #2fa4e7;
+        background: transparent;
+    }
+}
+
+.theme-cerulean #sidebar #navTreeView li > a,
+.theme-cerulean #submenubar #subMenu li > a,
+.theme-cerulean #sidebar #searchResults ul > li > a {
+    color: #333;
+}
+
+.theme-cerulean #navbar .nav-header li:first-child > a {
+    color: #2fa4e7;
+}
+
+.theme-cerulean #navbar .nav-button,
+.theme-cerulean #navbar .nav-header > li + li > a,
+.theme-cerulean #navbar .nav-header > li + li > a:hover,
+.theme-cerulean #sidebar #bottomNav a,
+.theme-cerulean #settingsbar #themesMenu li.active > a {
+    background: #2fa4e7;
+}
+
+.theme-cerulean #navbar .nav-header > li + li + li > a,
+.theme-cerulean #navbar .nav-header > li + li + li > a:hover {
+    background: #555555;
+}
+
+.theme-cerulean .alink {
+    color: #317eac;
+}
+
+
+/* Cosmo */
+.theme-cosmo #sidebar #navTreeView li.active > a {
+    background: #2780e3;
+    color: #fff;
+}
+
+.theme-cosmo #submenubar #subMenu li.active > a {
+    border-left-color: #2780e3;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-cosmo:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-cosmo:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #2780e3;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-cosmo.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-cosmo.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #2780e3;
+        background: transparent;
+    }
+}
+
+.theme-cosmo #sidebar #navTreeView li > a,
+.theme-cosmo #submenubar #subMenu li > a,
+.theme-cosmo #sidebar #searchResults ul > li > a {
+    color: #333;
+}
+
+.theme-cosmo #navbar .nav-header li:first-child > a {
+    color: #2fa4e7;
+}
+
+.theme-cosmo #navbar .nav-header li:first-child > a {
+    color: #2780e3;
+}
+
+.theme-cosmo #navbar .nav-button,
+.theme-cosmo #navbar .nav-header > li + li > a,
+.theme-cosmo #navbar .nav-header > li + li > a:hover,
+.theme-cosmo #sidebar #bottomNav a,
+.theme-cosmo #settingsbar #themesMenu li.active > a {
+    background: #2780e3;
+}
+
+.theme-cosmo #navbar .nav-header > li + li + li > a,
+.theme-cosmo #navbar .nav-header > li + li + li > a:hover {
+    background: #222222;
+}
+
+.theme-cosmo .alink {
+    color: #333;
+}
+
+/* cyborg */
+.theme-cyborg #sidebar #navTreeView li.active > a {
+    background: #2a9fd6;
+    color: #fff;
+}
+
+.theme-cyborg #submenubar #subMenu li.active > a {
+    border-left-color: #2a9fd6;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-cyborg:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-cyborg:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #2a9fd6;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-cyborg.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-cyborg.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #2a9fd6;
+        background: transparent;
+    }
+}
+
+.theme-cyborg #navbar {
+    background: #222222;
+}
+
+.theme-cyborg #sidebar #navTreeView li:not(.active) > a:hover {
+    color: #222222;
+}
+.theme-cyborg:not(.show-nav).collapse-nav #sidebar #navTreeView li.active-parent > a:hover {
+    color: #2a9fd6;
+}
+@media (max-width: 991px) {
+    .theme-cyborg:not(.show-nav) #sidebar #navTreeView li.active-parent > a:hover {
+        color: #2a9fd6;
+    }
+}
+
+.theme-cyborg #sidebar {
+    background: #060606;
+}
+
+.theme-cyborg #sidebar .sidebar-body {
+    border-right-color: #282828;
+}
+
+.theme-cyborg #sidebar #navTreeView li > a,
+.theme-cyborg #submenubar #subMenu li > a,
+.theme-cyborg #sidebar #searchResults ul > li > a {
+    color: #fff;
+}
+
+.theme-cyborg #submenubar {
+    background: #181818;
+}
+
+.theme-cyborg #submenubar #subMenu li.active > a {
+    background: #060606;
+    color: #ffffff;
+}
+
+.theme-cyborg #submenubar #subMenu li:not(.active) > a:hover {
+    color: #060606;
+}
+
+.theme-cyborg #navbar .nav-header > li:first-child a {
+    color: #fff;
+}
+
+.theme-cyborg #navbar .nav-button,
+.theme-cyborg #navbar .nav-header > li + li > a,
+.theme-cyborg #navbar .nav-header > li + li > a:hover,
+.theme-cyborg #sidebar #bottomNav a,
+.theme-cyborg #settingsbar #themesMenu li.active > a {
+    background: #2a9fd6;
+}
+
+.theme-cyborg #navbar .nav-header > li + li + li > a,
+.theme-cyborg #navbar .nav-header > li + li + li > a:hover {
+    background: #fff;
+    color: #222222;
+}
+
+.theme-cyborg .demo-chart {
+    background: #222222;
+    padding: 12px;
+}
+
+.theme-cyborg .demo-chart .dxc-chart {
+    background: #222222;
+}
+
+.theme-cyborg .demo-chart text,
+.theme-cyborg .dxc-tooltip text {
+    fill: #fff;
+}
+
+.theme-cyborg .dxc-tooltip path {
+    fill: #424242;
+    stroke: #424242;
+}
+
+.theme-cyborg .state-tooltip {
+    width: 165px;
+    color: #fff;
+}
+
+.theme-cyborg .chart-legend {
+    fill: #424242;
+}
+
+.theme-cyborg .alink {
+    color: #fff;
+}
+
+/* darkly */
+.theme-darkly #sidebar #navTreeView li.active > a {
+    background: #00bc8c;
+    color: #fff;
+}
+
+.theme-darkly #submenubar #subMenu li.active > a {
+    border-left-color: #00bc8c;
+}
+
+.theme-darkly #sidebar .sidebar-body {
+    border-right-color: #464545;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-darkly:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-darkly:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #00bc8c;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-darkly.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-darkly.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #00bc8c;
+        background: transparent;
+    }
+}
+
+.theme-darkly #navbar {
+    background: #404040;
+}
+
+.theme-darkly #sidebar {
+    background: #222222;
+}
+
+.theme-darkly #sidebar #navTreeView li:not(.active) > a:hover {
+    color: #222222;
+}
+
+.theme-darkly #sidebar #navTreeView li:not(.active) > a:hover {
+    color: #222222;
+}
+.theme-darkly:not(.show-nav).collapse-nav #sidebar #navTreeView li.active-parent > a:hover {
+    color: #00bc8c;
+}
+@media (max-width: 991px) {
+    .theme-darkly:not(.show-nav) #sidebar #navTreeView li.active-parent > a:hover {
+        color: #00bc8c;
+    }
+}
+
+.theme-darkly #sidebar #searchEditor .form-control {
+    color: #fff;    
+}
+
+.theme-darkly #submenubar {
+    background: #373737;
+}
+
+.theme-darkly #submenubar #subMenu li > a,
+.theme-darkly #sidebar #searchResults ul > li > a {
+    color: #fff;
+}
+
+.theme-darkly #submenubar #subMenu li:not(.active) > a:hover {
+    color: #373737;
+}
+
+.theme-darkly #submenubar #subMenu li.active > a {
+    background: #222222;
+    color: #fff;
+}
+
+.theme-darkly #navbar .nav-header li:first-child > a {
+    color: #00bc8c;
+}
+
+.theme-darkly #navbar .nav-button,
+.theme-darkly #navbar .nav-header > li + li > a,
+.theme-darkly #navbar .nav-header > li + li > a:hover,
+.theme-darkly #sidebar #bottomNav a,
+.theme-darkly #settingsbar #themesMenu li.active > a {
+    background: #00bc8c;
+}
+
+.theme-darkly #navbar .nav-header > li + li + li > a,
+.theme-darkly #navbar .nav-header > li + li + li > a:hover {
+    background: #ffffff;
+    color: #404040;
+}
+
+.theme-darkly .demo-chart {
+    background: #303030;
+    padding: 12px;
+}
+
+.theme-darkly .demo-chart .dxc-chart {
+    background: #303030;
+}
+
+.theme-darkly .demo-chart text,
+.theme-darkly .dxc-tooltip text {
+    fill: #fff;
+}
+
+.theme-darkly .dxc-tooltip path {
+    fill: #464545;
+    stroke: #464545;
+}
+
+.theme-darkly .state-tooltip {
+    width: 165px;
+    color: #fff;
+}
+
+.theme-darkly .chart-legend {
+    fill: #464545;
+}
+
+.theme-darkly .alink {
+    color: #fff;
+}
+
+/* flatly */
+.theme-flatly #sidebar #navTreeView li.active > a {
+    background: #00bc8c;
+    color: #fff;
+}
+
+.theme-flatly #submenubar #subMenu li.active > a {
+    border-left-color: #00bc8c;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-flatly:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-flatly:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #00bc8c;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-flatly.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-flatly.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #00bc8c;
+        background: transparent;
+    }
+}
+
+.theme-flatly #sidebar #navTreeView li > a,
+.theme-flatly #submenubar #subMenu li > a,
+.theme-flatly #sidebar #searchResults ul > li > a {
+    color: #2c3e50;
+}
+
+.theme-flatly #sidebar #navTreeView li.active > a {
+    color: #fff;
+}
+
+.theme-flatly #navbar .nav-header li:first-child > a {
+    color: #00bc8c;
+}
+
+.theme-flatly #navbar .nav-button,
+.theme-flatly #navbar .nav-header > li + li > a,
+.theme-flatly #navbar .nav-header > li + li > a:hover,
+.theme-flatly #sidebar #bottomNav a,
+.theme-flatly #settingsbar #themesMenu li.active > a {
+    background: #00bc8c;
+}
+
+.theme-flatly #navbar .nav-header > li + li + li > a,
+.theme-flatly #navbar .nav-header > li + li + li > a:hover {
+    background: #0f7864;
+}
+
+.theme-flatly .alink {
+    color: #2c3e50;
+}
+
+
+/* journal */
+.theme-journal #sidebar #navTreeView li.active > a {
+    background: #eb6864;
+    color: #fff;
+}
+
+.theme-journal #submenubar #subMenu li.active > a {
+    border-left-color: #eb6864;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-journal:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-journal:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #eb6864;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-journal.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-journal.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #eb6864;
+        background: transparent;
+    }
+}
+
+.theme-journal #sidebar #navTreeView li > a,
+.theme-journal #submenubar #subMenu li > a,
+.theme-journal #sidebar #searchResults ul > li > a {
+    color: #777777;
+}
+
+.theme-journal #navbar .nav-header li:first-child > a {
+    color: #eb6864;
+}
+
+.theme-journal #navbar .nav-button,
+.theme-journal #navbar .nav-header > li + li > a,
+.theme-journal #navbar .nav-header > li + li > a:hover,
+.theme-journal #sidebar #bottomNav a,
+.theme-journal #settingsbar #themesMenu li.active > a {
+    background: #eb6864;
+}
+
+.theme-journal #navbar .nav-header > li + li + li > a,
+.theme-journal #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-journal .alink {
+    color: #000;
+}
+
+/* lumen */
+.theme-lumen #sidebar #navTreeView li.active > a {
+    background: #158cba;
+    color: #fff;
+}
+
+.theme-lumen #submenubar #subMenu li.active > a {
+    border-left-color: #158cba;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-lumen:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-lumen:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #158cba;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-lumen.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-lumen.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #158cba;
+        background: transparent;
+    }
+}
+
+.theme-lumen #sidebar #navTreeView li > a,
+.theme-lumen #submenubar #subMenu li > a,
+.theme-lumen #sidebar #searchResults ul > li > a {
+    color: #333333;
+}
+
+.theme-lumen #navbar .nav-header li:first-child > a {
+    color: #158cba;
+}
+
+.theme-lumen #navbar .nav-button,
+.theme-lumen #navbar .nav-header > li + li > a,
+.theme-lumen #navbar .nav-header > li + li > a:hover,
+.theme-lumen #sidebar #bottomNav a,
+.theme-lumen #settingsbar #themesMenu li.active > a {
+    background: #158cba;
+}
+
+.theme-lumen #navbar .nav-header > li + li + li > a,
+.theme-lumen #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-lumen .alink {
+    color: #333;
+}
+
+/* paper */
+.theme-paper #sidebar #navTreeView li.active > a {
+    background: #2196f3;
+    color: #fff;
+}
+
+.theme-paper #submenubar #subMenu li.active > a {
+    border-left-color: #2196f3;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-paper:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-paper:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #2196f3;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-paper.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-paper.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #2196f3;
+        background: transparent;
+    }
+}
+
+.theme-paper #sidebar #navTreeView li > a,
+.theme-paper #submenubar #subMenu li > a,
+.theme-paper #sidebar #searchResults ul > li > a {
+    color: #444444;
+}
+
+.theme-paper #submenubar #subMenu li > a > span {
+    opacity: .6;
+}
+
+.theme-paper #navbar .nav-header li:first-child > a {
+    color: #2196f3;
+}
+
+.theme-paper #navbar .nav-button,
+.theme-paper #navbar .nav-header > li + li > a,
+.theme-paper #navbar .nav-header > li + li > a:hover,
+.theme-paper #sidebar #bottomNav a,
+.theme-paper #settingsbar #themesMenu li.active > a {
+    background: #2196f3;
+}
+
+.theme-paper #navbar .nav-header > li + li + li > a,
+.theme-paper #navbar .nav-header > li + li + li > a:hover {
+    background: #0076d4;
+}
+
+.theme-paper #settingsbar #screenSizeCmb .dxbs-dropdown-area li:not(.active) > a:hover {
+    color: #141414;
+}
+
+.theme-paper .alink {
+    color: #444;
+}
+
+/* readable */
+.theme-readable #sidebar #navTreeView li.active > a {
+    background: #4582ec;
+    color: #fff;
+}
+
+.theme-readable #submenubar #subMenu li.active > a {
+    border-left-color: #4582ec;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-readable:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-readable:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #4582ec;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-readable.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-readable.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #4582ec;
+        background: transparent;
+    }
+}
+
+.theme-readable #sidebar #navTreeView li > a,
+.theme-readable #submenubar #subMenu li > a,
+.theme-readable #sidebar #searchResults ul > li > a {
+    color: #333;
+}
+
+.theme-readable #navbar .nav-header li:first-child > a {
+    color: #4582ec;
+}
+
+.theme-readable #navbar .nav-button,
+.theme-readable #navbar .nav-header > li + li > a,
+.theme-readable #navbar .nav-header > li + li > a:hover,
+.theme-readable #sidebar #bottomNav a,
+.theme-readable #settingsbar #themesMenu li.active > a {
+    background: #4582ec;
+}
+
+.theme-readable #navbar .nav-header > li + li + li > a,
+.theme-readable #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-readable .alink {
+    color: #333;
+}
+
+/* sandstone */
+.theme-sandstone #sidebar #navTreeView li.active > a {
+    background: #93c54b;
+    color: #fff;
+}
+
+.theme-sandstone #submenubar #subMenu li.active > a {
+    border-left-color: #93c54b;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-sandstone:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-sandstone:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #93c54b;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-sandstone.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-sandstone.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #93c54b;
+        background: transparent;
+    }
+}
+
+.theme-sandstone #sidebar #navTreeView li:not(.active) > a,
+.theme-sandstone #submenubar #subMenu li:not(.active) > a,
+.theme-sandstone #sidebar #searchResults ul > li > a {
+    color: #3e3f3a;
+}
+
+.theme-sandstone #navbar .nav-header li:first-child > a {
+    color: #3e3f3a;
+}
+
+.theme-sandstone #navbar .nav-button,
+.theme-sandstone #sidebar #bottomNav a,
+.theme-sandstone #settingsbar #themesMenu li.active > a {
+    background: #3e3f3a;
+}
+
+.theme-sandstone #sidebar #bottomNav li:first-child > a {
+    border-bottom-color: rgba(255,255,255,.15);
+}
+
+.theme-sandstone #navbar .nav-header > li:first-child a {
+    color: #93c54b;
+}
+
+.theme-sandstone #navbar .nav-header > li + li > a,
+.theme-sandstone #navbar .nav-header > li + li > a:hover {
+    background: #93c54b;
+}
+
+.theme-sandstone #navbar .nav-header > li + li + li > a,
+.theme-sandstone #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-sandstone #settingsbar #screenSizeCmb .dxbs-dropdown-area li:not(.active) > a:hover {
+    color: #98978b;
+}
+
+.theme-sandstone .alink {
+    color: #3e3f3a;
+}
+
+/* simplex */
+.theme-simplex #sidebar #navTreeView li.active > a {
+    background: #d9230f;
+    color: #fff;
+}
+
+.theme-simplex #submenubar #subMenu li.active > a {
+    border-left-color: #d9230f;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-simplex:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-simplex:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #d9230f;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-simplex.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-simplex.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #d9230f;
+        background: transparent;
+    }
+}
+
+.theme-simplex #sidebar #navTreeView li:not(.active) > a,
+.theme-simplex #submenubar #subMenu li:not(.active) > a,
+.theme-simplex #sidebar #searchResults ul > li > a {
+    color: #444444;
+}
+
+.theme-simplex #navbar .nav-header li:first-child > a {
+    color: #d9230f;
+}
+
+.theme-simplex #navbar .nav-button,
+.theme-simplex #navbar .nav-header > li + li > a,
+.theme-simplex #navbar .nav-header > li + li > a:hover,
+.theme-simplex #sidebar #bottomNav a,
+.theme-simplex #settingsbar #themesMenu li.active > a {
+    background: #d9230f;
+}
+
+.theme-simplex #navbar .nav-header > li + li + li > a,
+.theme-simplex #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-simplex .alink {
+    color: #444;
+}
+
+/* slate */
+.theme-slate #sidebar #navTreeView li.active > a {
+    background: #484e55;
+    color: #fff;
+}
+
+.theme-slate #submenubar #subMenu li.active > a {
+    border-left-color: #484e55;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-slate:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-slate:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #484e55;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-slate.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-slate.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #484e55;
+        background: transparent;
+    }
+}
+
+.theme-slate #submenubar #subMenu li.active > a {
+    color: #fff;
+}
+
+.theme-slate #navbar {
+    background: #32363b;
+}
+
+.theme-slate #sidebar {
+    background: #272b30;
+}
+
+.theme-slate #sidebar .sidebar-body {
+    border-right-color: #1c1e22;
+}
+
+.theme-slate #sidebar #navTreeView li:not(.active) > a:hover {
+    color: #272b30;
+}
+
+.theme-slate:not(.show-nav).collapse-nav #sidebar #navTreeView li.active-parent > a:hover {
+    color: #484e55;
+}
+@media (max-width: 991px) {
+    .theme-slate:not(.show-nav) #sidebar #navTreeView li.active-parent > a:hover {
+        color: #484e55;
+    }
+}
+
+.theme-slate #sidebar #searchEditor .form-control {
+    color: #fff;    
+}
+
+.theme-slate #submenubar {
+    background: #2e3338;
+}
+
+.theme-slate #submenubar #subMenu li > a {
+    color: #fff;
+}
+
+.theme-slate #submenubar #subMenu li:not(.active) > a:hover {
+    color: #2e3338;
+}
+
+.theme-slate #submenubar #subMenu li.active > a {
+    background: #272b30;
+}
+
+.theme-slate #navbar .nav-header li:first-child > a {
+    color: #484e55;
+}
+
+
+.theme-slate #navbar .nav-header > li:first-child > a {
+    color: #fff;
+}
+
+.theme-slate #navbar .nav-header > li > a:hover {
+    background: transparent;
+}
+
+.theme-slate #navbar .nav-button,
+.theme-slate #navbar .nav-header > li + li > a,
+.theme-slate #navbar .nav-header > li + li > a:hover,
+.theme-slate #sidebar #bottomNav a,
+.theme-slate #settingsbar #themesMenu li.active > a {
+    background: #484e55;
+}
+
+.theme-slate #navbar .nav-header > li + li + li > a,
+.theme-slate #navbar .nav-header > li + li + li > a:hover {
+    background: #fff;
+    color: #484e55;
+}
+
+.theme-slate .demo-chart {
+    background: #2e3338;
+    padding: 12px;
+}
+
+.theme-slate .demo-chart .dxc-chart {
+    background: #2e3338;
+}
+
+.theme-slate .demo-chart text,
+.theme-slate .dxc-tooltip text {
+    fill: #c8c8c8;
+}
+
+.theme-slate .dxc-labels text {
+    fill: #fff;
+}
+
+.theme-slate .dxc-tooltip path {
+    fill: #3a3f44;
+    stroke: #3a3f44;
+}
+
+.theme-slate .state-tooltip {
+    color: #c8c8c8;
+}
+
+.theme-slate .chart-legend {
+    fill: #3a3f44;
+}
+
+.theme-slate .dxbs-spin-edit:not(.has-error) .dxbs-spin-btn-group {
+    color: #272b30;
+}
+
+.theme-slate .alink {
+    color: #c8c8c8;
+}
+
+/* spacelab */
+.theme-spacelab #sidebar #navTreeView li.active > a {
+    background: #446e9b;
+    color: #fff;
+}
+
+.theme-spacelab #submenubar #subMenu li.active > a {
+    border-left-color: #446e9b;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-spacelab:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-spacelab:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #446e9b;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-spacelab.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-spacelab.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #446e9b;
+        background: transparent;
+    }
+}
+
+.theme-spacelab #sidebar #navTreeView li:not(.active) > a,
+.theme-spacelab #submenubar #subMenu li:not(.active) > a,
+.theme-spacelab #sidebar #searchResults ul > li > a {
+    color: #2d2d2d;
+}
+
+.theme-spacelab #navbar .nav-header li:first-child > a {
+    color: #446e9b;
+}
+
+.theme-spacelab #navbar .nav-button,
+.theme-spacelab #navbar .nav-header > li + li > a,
+.theme-spacelab #navbar .nav-header > li + li > a:hover,
+.theme-spacelab #sidebar #bottomNav a,
+.theme-spacelab #settingsbar #themesMenu li.active > a {
+    background: #446e9b;
+}
+
+.theme-spacelab #navbar .nav-header > li + li + li > a,
+.theme-spacelab #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-spacelab .alink {
+    color: #2d2d2d;
+}
+
+/* superhero */
+.theme-superhero #sidebar #navTreeView li.active > a {
+    background: #df691a;
+    color: #fff;
+}
+
+.theme-superhero #submenubar #subMenu li.active > a {
+    border-left-color: #df691a;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-superhero:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-superhero:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #df691a;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-superhero.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-superhero.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #df691a;
+        background: transparent;
+    }
+}
+
+.theme-superhero #navbar {
+    background: #374c61;
+}
+
+.theme-superhero #sidebar {
+    background: #2b3e50;
+}
+
+.theme-superhero #sidebar .sidebar-body {
+    border-right-color: #242c34;
+}
+
+.theme-superhero #sidebar #searchEditor .form-control {
+    color: #fff;    
+}
+
+.theme-superhero #sidebar #searchResults ul > li > a {
+    color: #fff;
+}
+
+.theme-superhero #sidebar #navTreeView li:not(.active) > a:hover {
+    color: #2b3e50;
+}
+
+.theme-superhero:not(.show-nav).collapse-nav #sidebar #navTreeView li.active-parent > a:hover {
+    color: #df691a;
+}
+@media (max-width: 991px) {
+    .theme-superhero:not(.show-nav) #sidebar #navTreeView li.active-parent > a:hover {
+        color: #df691a;
+    }
+}
+
+.theme-superhero #submenubar {
+    background: #33495d;
+}
+
+.theme-superhero #submenubar #subMenu li.active > a {
+    background: #2b3e50;
+    color: #fff;
+}
+
+.theme-superhero #submenubar #subMenu li:not(.active) > a:hover {
+    color: #33495d;
+}
+
+.theme-superhero #navbar .nav-header li:first-child > a {
+    color: #df691a;
+}
+
+.theme-superhero #navbar .nav-button,
+.theme-superhero #navbar .nav-header > li + li > a,
+.theme-superhero #navbar .nav-header > li + li > a:hover,
+.theme-superhero #sidebar #bottomNav a,
+.theme-superhero #settingsbar #themesMenu li.active > a {
+    background: #df691a;
+}
+
+.theme-superhero #navbar .nav-header > li + li + li > a,
+.theme-superhero #navbar .nav-header > li + li + li > a:hover {
+    background: #fff;
+    color: #374c61;
+}
+
+.theme-superhero .demo-chart {
+    background: #4e5d6c;
+    padding: 12px;
+}
+
+.theme-superhero .demo-chart .dxc-chart {
+    background: #4e5d6c;
+}
+
+.theme-superhero .demo-chart text,
+.theme-superhero .dxc-tooltip text {
+    fill: #ebebeb;
+}
+
+.theme-superhero .dxc-tooltip path {
+    fill: #485563;
+    stroke: #485563;
+}
+
+.theme-superhero .state-tooltip {
+    width: 165px;
+    color: #ebebeb;
+}
+
+.theme-superhero .chart-legend {
+    fill: #485563;
+}
+
+.theme-superhero .dxbs-spin-edit:not(.has-error) .dxbs-spin-btn-group {
+    color: #2b3e50;
+}
+
+.theme-superhero .alink {
+    color: #ebebeb;
+}
+
+/* united */
+.theme-united #sidebar #navTreeView li.active > a {
+    background: #e95420;
+    color: #fff;
+}
+
+.theme-united #submenubar #subMenu li.active > a {
+    border-left-color: #e95420;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-united:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-united:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #e95420;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-united.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-united.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #e95420;
+        background: transparent;
+    }
+}
+
+.theme-united #sidebar #navTreeView li:not(.active) > a,
+.theme-united #submenubar #subMenu li:not(.active) > a,
+.theme-united #sidebar #searchResults ul > li > a {
+    color: #333333;
+}
+
+.theme-united #navbar .nav-header li:first-child > a {
+    color: #e95420;
+}
+
+.theme-united #navbar .nav-button,
+.theme-united #navbar .nav-header > li + li > a,
+.theme-united #navbar .nav-header > li + li > a:hover,
+.theme-united #sidebar #bottomNav a,
+.theme-united #settingsbar #themesMenu li.active > a {
+    background: #e95420;
+}
+
+.theme-united #navbar .nav-header > li + li + li > a,
+.theme-united #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-united .alink {
+    color: #333;
+}
+
+
+/* yeti */
+.theme-yeti #sidebar #navTreeView li.active > a {
+    background: #008cba;
+    color: #fff;
+}
+
+.theme-yeti #submenubar #subMenu li.active > a {
+    border-left-color: #008cba;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .theme-yeti:not(.show-nav) #sidebar #navTreeView li.active > a,
+    .theme-yeti:not(.show-nav) #sidebar #navTreeView li.active-parent > a {
+        color: #008cba;
+        background: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    .theme-yeti.collapse-nav #sidebar #navTreeView li.active > a,
+    .theme-yeti.collapse-nav #sidebar #navTreeView li.active-parent > a {
+        color: #008cba;
+        background: transparent;
+    }
+}
+
+.theme-yeti #sidebar #navTreeView li:not(.active) > a,
+.theme-yeti #submenubar #subMenu li:not(.active) > a,
+.theme-yeti #sidebar #searchResults ul > li > a {
+    color: #222222;
+}
+
+.theme-yeti #navbar .nav-header li:first-child > a {
+    color: #008cba;
+}
+
+.theme-yeti #navbar .nav-button,
+.theme-yeti #navbar .nav-header > li + li > a,
+.theme-yeti #navbar .nav-header > li + li > a:hover,
+.theme-yeti #sidebar #bottomNav a,
+.theme-yeti #settingsbar #themesMenu li.active > a {
+    background: #008cba;
+}
+
+.theme-yeti #navbar .nav-header > li + li + li > a,
+.theme-yeti #navbar .nav-header > li + li + li > a:hover {
+    background: #333333;
+}
+
+.theme-yeti #settingsbar #screenSizeCmb .dxbs-dropdown-area li:not(.active) > a:hover {
+    color: #262626;
+}
+
+.theme-yeti .alink {
+    color: #222;
+}
+
+
+/* all dark themes */
+.theme-cyborg #sidebar #searchEditor .form-control,
+.theme-darkly #sidebar #searchEditor .form-control,
+.theme-slate #sidebar #searchEditor .form-control,
+.theme-superhero #sidebar #searchEditor .form-control {
+    border-bottom-color: #666;
+}
+
+.theme-cyborg #sidebar .search .dxbs-edit-btn:not(.dxbs-clear-btn),
+.theme-darkly #sidebar .search .dxbs-edit-btn:not(.dxbs-clear-btn),
+.theme-slate #sidebar .search .dxbs-edit-btn:not(.dxbs-clear-btn),
+.theme-superhero #sidebar .search .dxbs-edit-btn:not(.dxbs-clear-btn) {
+    border-bottom-color: #666;
+}
+
+.theme-cyborg #navbar .logo h4 a,
+.theme-darkly #navbar .logo h4 a,
+.theme-slate #navbar .logo h4 a,
+.theme-superhero #navbar .logo h4 a {
+    color: #fff;
+    opacity: .78;
+}
+
+.theme-cyborg #navbar .logo h3 a,
+.theme-darkly #navbar .logo h3 a,
+.theme-slate #navbar .logo h3 a,
+.theme-superhero #navbar .logo h3 a {
+    color: #fff;
+}

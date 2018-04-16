@@ -1,0 +1,125 @@
+﻿:target:before { /* fix anchor navigation with fixed header */
+    content: "";
+    display: block;
+    height: 90px;
+    margin: -90px 0 0;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    margin-top: 90px;
+    min-width: 300px;
+}
+
+/* reset custom themes for panels */
+#settingsbar,
+#settingsbar .btn,
+#settingsbar .nav {
+    line-height: 1.42857143;
+    letter-spacing: 0;
+}
+
+    #settingsbar * {
+        text-shadow: none;
+    }
+
+    #settingsbar .nav {
+        text-transform: none;
+    }
+
+#settingsbar {
+    transition: width 500ms;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    border-left: 1px solid #e3e3e3;
+    padding: 25px 0 0 0;
+    width: 280px;
+    color: #666666;
+    z-index: 30;
+}
+
+    #settingsbar h5:not(:first-of-type) {
+        margin-top: 40px;
+    }
+
+    #settingsbar h5,
+    #settingsbar #themesMenu {
+        margin-left: 24px;
+        margin-right: 18px;
+    }
+
+    #settingsbar h5 {
+        color: #666666;
+    }
+
+body:not(.show-settings) #settingsbar {
+    width: 0;
+}
+
+#settingsbar h5 {
+    font-family: overpass;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px 18px 10px 24px;
+    white-space: nowrap;
+}
+
+#settingsbar #themesMenu {
+    margin-left: 10px;
+    font-size: 14px;
+    min-width: 250px;
+}
+
+    #settingsbar #themesMenu .nav {
+        font-size: 14px;
+    }
+
+    #settingsbar #themesMenu li {
+        width: 50%;
+    }
+
+        #settingsbar #themesMenu li:first-child {
+            margin-right: 50%;
+        }
+
+        #settingsbar #themesMenu li + li {
+            margin-left: 0;
+        }
+
+        #settingsbar #themesMenu li > a {
+            white-space: nowrap;
+            color: #a9a9a9;
+            font-family: overpass;
+            font-weight: 500;
+            border-radius: 0;
+            border: 0;
+            background-image: none;
+            padding-top: 12px;
+            padding-bottom: 8px;
+        }
+
+            #settingsbar #themesMenu li > a:hover {
+                background: #e8e8e8;
+            }
+
+        #settingsbar #themesMenu li.active > a {
+            color: #fff;
+        }
+
+        #settingsbar #themesMenu li > a > .image {
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            vertical-align: -3px;
+            margin-right: 16px;
+        }
+
+        #settingsbar #themesMenu li > a > .image {
+            border: 1px solid #fff;
+        }
