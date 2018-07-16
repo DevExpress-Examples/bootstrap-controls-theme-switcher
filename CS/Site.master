@@ -15,8 +15,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div class="navbar sticky-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">My App</a>
+            <div class="my-2 my-lg-0 bg-light">
+                <bts:BootstrapThemeSwitcher ID="SuperBootstrapThemeSwitcher" runat="server" />
+            </div>
+        </div>
         <div>
-            <bts:BootstrapThemeSwitcher ID="SuperBootstrapThemeSwitcher" runat="server" />
             <asp:ContentPlaceHolder ID="SiteBodyContentPlaceHolder" runat="server">
             </asp:ContentPlaceHolder>
         </div>

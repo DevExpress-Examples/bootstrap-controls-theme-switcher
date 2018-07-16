@@ -10,7 +10,6 @@ html {
 }
 
 body {
-    margin-top: 90px;
     min-width: 300px;
 }
 
@@ -33,14 +32,12 @@ body {
 #settingsbar {
     transition: width 500ms;
     position: fixed;
-    top: 80px;
     right: 0;
+    top: 0;
     bottom: 0;
-    background: #fff;
     border-left: 1px solid #e3e3e3;
     padding: 25px 0 0 0;
     width: 280px;
-    color: #666666;
     z-index: 30;
 }
 
@@ -54,18 +51,11 @@ body {
         margin-right: 18px;
     }
 
-    #settingsbar h5 {
-        color: #666666;
-    }
-
 body:not(.show-settings) #settingsbar {
     width: 0;
 }
 
 #settingsbar h5 {
-    font-family: overpass;
-    font-weight: 500;
-    font-size: 15px;
     margin: 10px 18px 10px 24px;
     white-space: nowrap;
 }
@@ -94,9 +84,6 @@ body:not(.show-settings) #settingsbar {
 
         #settingsbar #themesMenu li > a {
             white-space: nowrap;
-            color: #a9a9a9;
-            font-family: overpass;
-            font-weight: 500;
             border-radius: 0;
             border: 0;
             background-image: none;

@@ -32,18 +32,16 @@
     }
 
 </script>
-
-<div class="pull-right">
-    <dx:BootstrapButton ID="BootstrapButton1" runat="server" Text="Show theme selector" AutoPostBack="false">
+<form class="form-inline">
+    <dx:BootstrapButton ID="BootstrapButton1" runat="server" SettingsBootstrap-RenderOption="Info" CssClasses-Control="my-2 my-sm-0" AutoPostBack="false" Text="Change Theme">
         <ClientSideEvents Click="showThemeSelector" />
     </dx:BootstrapButton>
-</div>
+</form>
 
 <dx:ASPxHiddenField runat="server" ID="HiddenLink" ClientInstanceName="HiddenLink">
 </dx:ASPxHiddenField>
 
-<section id="settingsbar">
-    <h5>Color Themes</h5>
+<section id="settingsbar" class="bg-light">
     <dx:BootstrapMenu runat="server" ID="themesMenu" ClientIDMode="Static" AllowSelectItem="true">
         <ClientSideEvents ItemClick="onThemeItemClick" />
     </dx:BootstrapMenu>
