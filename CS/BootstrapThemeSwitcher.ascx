@@ -1,7 +1,7 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeFile="BootstrapThemeSwitcher.ascx.cs" Inherits="BootstrapThemeSwitcher" %>
-<%@ Register Assembly="DevExpress.Web.Bootstrap.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.Bootstrap" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.Bootstrap.v17.2, Version=17.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.Bootstrap" TagPrefix="dx" %>
 
-<%@ Register Assembly="DevExpress.Web.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v17.2, Version=17.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <script>
 
@@ -32,19 +32,16 @@
     }
 
 </script>
+<dx:BootstrapButton ID="BootstrapButton1" runat="server" SettingsBootstrap-RenderOption="Info" CssClasses-Control="my-2 my-sm-0" AutoPostBack="false" Text="Change Theme">
+    <ClientSideEvents Click="showThemeSelector" />
+</dx:BootstrapButton>
 
-<div class="pull-right">
-    <dx:BootstrapButton ID="BootstrapButton1" runat="server" Text="Show theme selector" AutoPostBack="false">
-        <ClientSideEvents Click="showThemeSelector" />
-    </dx:BootstrapButton>
-</div>
 
 <dx:ASPxHiddenField runat="server" ID="HiddenLink" ClientInstanceName="HiddenLink">
 </dx:ASPxHiddenField>
 
 <section id="settingsbar">
-    <h5>Color Themes</h5>
-    <dx:BootstrapMenu runat="server" ID="themesMenu" ClientIDMode="Static" AllowSelectItem="true">
+    <dx:BootstrapMenu runat="server" ID="themesMenu" ClientIDMode="Static" AllowSelectItem="true" SettingsBootstrap-NavbarMode="true">
         <ClientSideEvents ItemClick="onThemeItemClick" />
     </dx:BootstrapMenu>
 </section>

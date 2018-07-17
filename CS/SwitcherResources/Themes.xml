@@ -7,14 +7,20 @@
   <Theme Name="darkly" Title="Darkly"></Theme>
   <Theme Name="flatly" Title="Flatly"></Theme>
   <Theme Name="journal" Title="Journal"></Theme>
+  <Theme Name="litera" Title="Litera"></Theme>
   <Theme Name="lumen" Title="Lumen"></Theme>
-  <Theme Name="paper" Title="Paper"></Theme>
-  <Theme Name="readable" Title="Readable"></Theme>
+  <Theme Name="lux" Title="Lux"></Theme>
+  <Theme Name="materia" Title="Materia"></Theme>
+  <Theme Name="minty" Title="Minty"></Theme>
+  <Theme Name="pulse" Title="Pulse"></Theme>
   <Theme Name="sandstone" Title="Sandstone"></Theme>
   <Theme Name="simplex" Title="Simplex"></Theme>
+  <Theme Name="sketchy" Title="Sketchy"></Theme>
   <Theme Name="slate" Title="Slate"></Theme>
+  <Theme Name="solar" Title="Solar"></Theme>
   <Theme Name="spacelab" Title="Spacelab"></Theme>
   <Theme Name="superhero" Title="Superhero"></Theme>
   <Theme Name="united" Title="United"></Theme>
   <Theme Name="yeti" Title="Yeti"></Theme>
+
 </Themes>
