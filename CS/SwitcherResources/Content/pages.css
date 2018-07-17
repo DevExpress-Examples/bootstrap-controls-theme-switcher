@@ -35,6 +35,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
+    background-color: var(--light);
     border-left: 1px solid #e3e3e3;
     padding: 25px 0 0 0;
     width: 280px;
@@ -93,20 +94,26 @@ body:not(.show-settings) #settingsbar {
 
             #settingsbar #themesMenu li > a:hover {
                 background: #e8e8e8;
+                padding-left: 5px;
+                font-size: 110%;
             }
 
         #settingsbar #themesMenu li.active > a {
-            color: #fff;
+            color: var(--info);
         }
 
-        #settingsbar #themesMenu li > a > .image {
-            width: 18px;
-            height: 18px;
-            display: inline-block;
-            vertical-align: -3px;
-            margin-right: 16px;
+        #settingsbar #themesMenu li > a {
+            color: var(--info);
         }
 
-        #settingsbar #themesMenu li > a > .image {
-            border: 1px solid #fff;
-        }
+            #settingsbar #themesMenu li > a > .image {
+                width: 18px;
+                height: 18px;
+                display: inline-block;
+                vertical-align: -3px;
+                margin-right: 16px;
+            }
+
+            #settingsbar #themesMenu li > a > .image {
+                border: 1px solid #fff;
+            }
