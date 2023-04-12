@@ -17,7 +17,7 @@
 <!-- default file list end -->
 # Bootstrap Controls - How to implement Theme Switcher
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t547560/)**
+**[[Run Online]](https://codecentral.devexpress.com/128565915/)**
 <!-- run online end -->
 
 
