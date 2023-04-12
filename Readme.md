@@ -9,13 +9,38 @@
 <!-- run online end -->
 
 
-<p>This example demonstrates the way of creating a Bootstrap Theme Switcher User Control as in <a href="https://demos.devexpress.com/Bootstrap/GridView/">Devexpress Bootstrap demos</a> (all themes are taken from the <a href="https://bootswatch.com/">Bootswatch web site</a>).<br>The selected theme name is stored in cookies.<br><strong>HOW TO APPLY:<br></strong>1. Add all three files in App_Code directory: BootstrapThemeModel.cs, BundleConfig.cs, ThemeModelBase.cs;<br>2. Add User Control BootstrapThemeSwitcher and register and add it on the page. In this example, it's registered and added on the Master Page Site.master; <br>3. Add the SwitcherResources folder. It contains the Content and Scripts folders, the client resources for Theme Switcher User Control and Themes.xml file which contains the list of Bootstrap Themes.<br>After performing all actions above, you will have an attractive Theme Switcher like in our demos.</p>
+This example demonstrates how to create the Bootstrap Theme Switcher user control like in our [Devexpress Bootstrap demos](https://demos.devexpress.com/Bootstrap/GridView/). All themes are taken from the [Bootswatch web site](https://bootswatch.com/). The selected theme name is stored in cookies.
+
+![Bootstrap Theme Switcher](bootstrap-theme-switcher.png)
+
+Follow the steps below to add the theme switcher to your application:
 
 
-<h3>Description</h3>
+1. Add all the following files in the [App_Code](./CS/App_Code) directory: 
+    * [BootstrapThemeModel.cs](./CS/App_Code/BootstrapThemeModel.cs)
+    * [BundleConfig.cs](./CS/App_Code/BundleConfig.cs)
+    * [ThemeModelBase.cs](./CS/App_Code/ThemeModelBase.cs)
 
-<p>BootstrapThemeSwitcher User Control contains an attribute ThemeLinkID and requires the value of the link's element id which is responsible for representing the current theme.<br>ThemeLinkID&nbsp;is connected with BootstrapThemeSwitcher's ASPxHiddenField and this value is used for changing the theme on the client side.</p>
+2. Add the _BootstrapThemeSwitcher_ user control  to your application, register and add it on the page. In this example, it's registered and added in the [Site.master](./CS/Site.master) master page. 
 
-<br/>
+    ```html
+    <%@ Register Src="~/BootstrapThemeSwitcher.ascx" TagPrefix="bts" TagName="BootstrapThemeSwitcher" %>
+    ...
+    <bts:BootstrapThemeSwitcher ID="SuperBootstrapThemeSwitcher" runat="server" />
+    ```
+3. Add the [SwitcherResources](./CS/SwitcherResources) folder to your application. The folder contains the client resources required for the theme switcher and a list of available Bootstrap themes.
+
+## Files to Review
+
+* [Site.master](./CS/Site.master) (VB: [Site.master](./VB/Site.master))
+* [Site.master.cs](./CS/Site.master.cs) (VB: [Site.master.vb](./VB/Site.master.vb))
+* [BootstrapThemeSwitcher.ascx](./CS/BootstrapThemeSwitcher.ascx) (VB: [BootstrapThemeSwitcher.ascx](./VB/BootstrapThemeSwitcher.ascx))
+* [BootstrapThemeSwitcher.ascx.cs](./CS/BootstrapThemeSwitcher.ascx.cs) (VB: [BootstrapThemeSwitcher.ascx.vb](./VB/BootstrapThemeSwitcher.ascx.vb))
+
+
+
+
+
+
 
 
