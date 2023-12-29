@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Bootstrap Controls - How to implement Theme Switcher
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128565915/)**
-<!-- run online end -->
 
 
 This example demonstrates how to create the Bootstrap Theme Switcher user control like in our [Devexpress Bootstrap demos](https://demos.devexpress.com/Bootstrap/GridView/). All themes are taken from the [Bootswatch web site](https://bootswatch.com/). The selected theme name is stored in cookies.
